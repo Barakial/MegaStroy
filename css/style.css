@@ -1,0 +1,232 @@
+header {
+    width: 100%;
+    display: inline-block;
+    height: 90px;
+}
+.header-logo {
+    float: left;
+    width: 25%;
+}
+.header-phones {
+    float: left;
+    width: 25%;
+    padding: 25px 0px;
+}
+.header-phones a {
+    text-align: center;
+    display: block;
+    font-size: 19px;
+    color: #1b2230;
+    font-family: "OpenSansRegular";
+}
+.header-graphics-job {
+    float: left;
+    width: 25%;
+    padding: 25px 30px;
+    position: relative;
+}
+.header-graphics-job:before {
+    content: "";
+    width: 2px;
+    height: 35px;
+    background: #ffb400;
+    position: absolute;
+    left: 0;
+    top: 35px;
+}
+span.title-job {
+    font-family: "OpenSansSemiBold";
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #1b2230;
+    display: block;
+    margin-bottom: 10px;
+}
+.header-graphics-job p {
+    color: #1b2230;
+    font-size: 14px;
+    font-family: "OpenSansRegular";
+}
+.header-callblack {
+    float: left;
+    width: 25%;
+    padding: 25px 0px;
+}
+.header-callblack button {
+    width: 210px;
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    background: #ffb400;
+    padding: 0px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #1b2230;
+    font-family: "OpenSansBold";
+    border-radius: 3px;
+    float: right;
+}
+.header-callblack button i {
+    line-height: 45px;
+    float: left;
+    width: 40px;
+    height: 45px;
+    font-size: 25px;
+    background: #ffa600;
+    border-right: 1px solid #eb9700;
+    border-radius: 3px;
+}
+.banner-top {
+    background: url("../img/bg_main.jpg") 35% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    height: 720px;
+}
+.banner-top h1 {
+    text-align: center;
+    font-size: 58px;
+    text-transform: uppercase;
+    font-family: "OpenSansExtraBold";
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 817px;
+    margin: auto;
+    margin-top: 65px;
+}
+.banner-top h2 {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: "OpenSansBold";
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+}
+.banner-top h3 {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: "OpenSansBold";
+    color: #fff;
+    background-color: #e62f49;
+    width: 817px;
+    margin: auto;
+    margin-top: 40px;
+}
+.center-product-banner {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    background: rgba(244, 176, 11, 0.90);
+    margin-top: 45px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+.product-banner {
+    float: left;
+    width: 55%;
+    background: #fff;
+    padding-top: 45px;
+    padding-bottom: 42px;
+}
+.block-callblack-banner {
+    float: left;
+    width: 45%;
+    padding: 38px 60px;
+}
+.discount-product-banner {
+    float: left;
+    width: 50%;
+}
+.image-discount-banner {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.image-discount-banner img {
+    display: block;
+    margin: auto;
+    width: 290px;
+    margin-top: 50px;
+}
+p.title-discout-product {
+    font-size: 36px;
+    color: #1b2230;
+    font-family: "OpenSansExtraBold";
+    text-transform: uppercase;
+    padding: 15px 23px;
+}
+p.price-new-banner {
+    font-size: 30px;
+    color: #1b2230;
+    font-family: "OpenSansExtraBold";
+    position: relative;
+}
+span.price-old-banner {
+    color: #e62f49;
+    font-size: 56px;
+    font-family: "OpenSansExtraBold";
+    margin-top: -20px;
+}
+.price-banner {
+    padding: 0 23px;
+}
+p.price-new-banner {
+    font-size: 30px;
+    color: #1b2230;
+    font-family: "OpenSansExtraBold";
+    position: relative;
+    margin-bottom: -15px;
+    padding-left: 5px;
+}
+p.price-new-banner:after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    background: #e62f49;
+    left: 0px;
+    top: 50%;
+}
+span.title-form-banner {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    font-family: "OpenSansExtraBold";
+    color: #fff;
+    line-height: 35px;
+}
+input.style-input-form {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: #c6c6c6;
+    font-family: "OpenSansSemiBold";
+}
+button.btn-global-form {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    margin-top: 25px;
+    height: 65px;
+    background: #e62f49;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: "OpenSansExtraBold";
+}
+img.promo-label-banner {
+    width: 125px;
+    position: absolute;
+    top: -15%;
+    right: 0px;
+}
