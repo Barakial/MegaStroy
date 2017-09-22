@@ -14,3 +14,7 @@ owl.owlCarousel({
     autoplayTimeout:5000,
     autoplayHoverPause:true
 });
+$('#phone').mask("+38(099) 999-99-99");
+$('#phone_2').mask("+38(099) 999-99-99");
+$('#phone_3').mask("+38(099) 999-99-99");
+$('#phone_4').mask("+38(099) 999-99-99");

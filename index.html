@@ -27,7 +27,7 @@
             <p><strong>8</strong><sup>00</sup> - <strong>17</strong><sup>00</sup> без выходных </p>
         </div>
         <div class="header-callblack">
-            <button type="button">
+            <button type="button" data-toggle="modal" data-target="#modal_callblack">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 Обратный звонок
             </button>
@@ -70,7 +70,7 @@
             </span>
                 <form class="form-callblack-banner">
                     <input type="text" class="style-input-form" placeholder="Как вас зовут?">
-                    <input type="text" class="style-input-form" id="phone" placeholder="+38 (0__) ___ __ __">
+                    <input type="text" class="style-input-form" id="phone_2" placeholder="+38 (0__) ___ __ __">
                     <button type="button" class="btn-global-form">Заказать</button>
                 </form>
             </div>
@@ -241,24 +241,325 @@
                     </button>
                 </div>
             </div>
-
         </div>
     </div>
-
 </div>
+<div class="order-consultation">
+    <div class="container">
+        <div class="form-order-consultation">
+            <p>
+                заказать консультацию
+            </p>
+            <span>
+                    и получить индивидуальный расчет
+                    количества стройматериалов
+                </span>
+            <form action="">
+                <input type="text" class="style-input-form" placeholder="Как вас зовут?">
+                <input type="text" class="style-input-form" id="phone" placeholder="+38 (0__) ___ __ __">
+                <button type="button" class="btn-global-form">Заказать</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="about-company">
+    <div class="container">
+        <span class="title-block">О компании</span>
+        <p>
+            Наша компания “МЕГАСТРОЙ ”  Занимается  поставками цемента от ведущих производителей а также сыпучих материалов , и любых необходимых строительстве материалов, Мы предлагаем нашим клиентам лучшее соотношение «цена-качество».
+        </p>
+        <div class="about-text-company">
+            <span>
+                Взаимодействие компании с клиентами
+            </span>
+            <p>
+                Мы всегда рады сотрудничеству и с радостью расскажем вам о реализуемой нами продукции, поможем сделать выбор. Проконсультируем по поводу применения  того или иного вида материалов.
+            </p>
+        </div>
+        <div class="about-text-company">
+            <span>
+                Что вы получаете при сотрудничестве с компанией «МЕГАСТРОЙ»?
+            </span>
+            <p>
+                <strong>Качественную продукцию.</strong> Мы осуществляем продажу строительных материалов  от ведущих производителей.<br>
+                <strong>Индивидуальный подход.</strong> За каждым клиентом закрепляется персональный менеджер, поэтому по любым вопросам вы можете обратиться именно к нему.<br>
+                <strong>Низкие цены.</strong>  Мы работаем напрямую с поставщиками – абсолютно прозрачное ценообразование.<br>
+                <strong>Долгосрочное сотрудничество.</strong> Мы ценим каждого клиента, и поэтому ориентируемся на долгие партнерские отношения, предлагая гибкие системы скидок постоянным клиентам.
+            </p>
+        </div>
+        <div class="about-text-company">
+            <span>
+                Мы ждем ваш звонок!
+            </span>
+            <p>
+                Свяжитесь с нами по указанным телефонам и наши специалисты ответят на все интересующие Вас вопросы, развеют сомнения и примут Ваш заказ. 
+            </p>
+        </div>
+        <div class="about-company-telephone">
+            <ul>
+                <li>
+                    <a href="tel:+38(067)865-58-03">
+                        <img src="img/kyivstar.png" alt="Киевстар +38(067)865-58-03" title="Киевстар +38(067)865-58-03">
+                        +38(067)865-58-03
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:+38(067)595-5861">
+                        +38(067)595-5861
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:+38(050)766-01-12">
+                        <img src="img/vodafone.png" alt="vodafone +38(050)766-01-12" title="vodafone +38(050)766-01-12">
+                        +38(050)766-01-12
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="quality-work">
+    <div class="container">
+        <div class="col-md-3">
+            <div class="quality-work-block">
+                <div class="image-quality-work">
+                    <img src="img/cert.png" alt="100% гарантия" title="100% гарантия">
+                </div>
+                <p class="title-block-quality-work">100%<br> гарантия</p>
+                <div class="iline-promotions"></div>
+                <p class="desc-quality-work">
+                    Мы гарантируем высокое качество поставляемых товаров
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="quality-work-block">
+                <div class="image-quality-work">
+                    <img src="img/check.png" alt="Проверенные марки цемента" title="Проверенные марки цемента">
+                </div>
+                <p class="title-block-quality-work">
+                    Проверенные<br>
+                    марки цемента</p>
+                <div class="iline-promotions"></div>
+                <p class="desc-quality-work">
+                    Продаем только проверенные лабораторией марки цемента
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="quality-work-block">
+                <div class="image-quality-work">
+                    <img src="img/weight.png" alt="Всегда точный вес заказа" title="Всегда точный вес заказа">
+                </div>
+                <p class="title-block-quality-work">
+                    Всегда точный вес<br>
+                    заказа
+                </p>
+                <div class="iline-promotions"></div>
+                <p class="desc-quality-work">
+                    Заказывая песок, цемент или щебень у нас, Вы можете быть абсолютно спокойны, ведь мы в точности проверяем вес заказа
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="quality-work-block">
+                <div class="image-quality-work">
+                    <img src="img/care.png" alt="Индивидуальный подход к заказчику" title="Индивидуальный подход к заказчику">
+                </div>
+                <p class="title-block-quality-work">
+                    Индивидуальный<br> подход к заказчику
+                </p>
+                <div class="iline-promotions"></div>
+                <p class="desc-quality-work">
+                    Мы глубоко ценим и уважаем каждого нашего клиента, а потому готовы предложить индивидуальный подход к каждому заказу
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="quality-work-block">
+                <div class="image-quality-work">
+                    <img src="img/price.png" alt="Самые низкие цены в Запорожской области" title="Самые низкие цены в Запорожской области">
+                </div>
+                <p class="title-block-quality-work">
+                    Самые низкие цены в<br> Запорожской области
+                </p>
+                <div class="iline-promotions"></div>
+                <p class="desc-quality-work">
+                    Экономьте на покупке стройматериалов , приобретая лучшее!
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="quality-work-block">
+                <div class="image-quality-work">
+                    <img src="img/partners.png" alt="Товары напрямую от производителя" title="Товары напрямую от производителя">
+                </div>
+                <p class="title-block-quality-work">
+                    Товары напрямую от<br> производителя
+                </p>
+                <div class="iline-promotions"></div>
+                <p class="desc-quality-work">
+                    Заказывайте строительные материалы высочайшего качества от производителя без рисков  и  наценки от посредников
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="quality-work-block">
+                <div class="image-quality-work">
+                    <img src="img/shipping.png" alt="Экспресс-доставка по всему региону" title="Экспресс-доставка по всему региону">
+                </div>
+                <p class="title-block-quality-work">
+                    Экспресс-доставка по<br> всему региону
+                </p>
+                <div class="iline-promotions"></div>
+                <p class="desc-quality-work">
+                    Мы доставляем товары в любую точку региона в кратчайшие сроки - качественно и надежно
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="quality-work-block">
+                <div class="image-quality-work">
+                    <img src="img/payments.png" alt="Наличный и безналичный расчет" title="Наличный и безналичный расчет">
+                </div>
+                <p class="title-block-quality-work">
+                    Наличный и<br> безналичный расчет
+                </p>
+                <div class="iline-promotions"></div>
+                <p class="desc-quality-work">
+                    Оплата производится любым удобным для Вас способом, будь то безналичный расчет или оплата заказа при получении
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="special-offer">
+    <div class="container">
+        <div class="special-offer-center-block">
+            <h6>
+                Специальное предложение!
+            </h6>
+            <div class="left-block-special-offer">
+                <p class="normal-text-offer">При покупке <span>ЩЕБНЯ</span></p>
+                <p class="discount-offer">Скидка 25%</p>
+                <p class="normal-text-offer">на весь цемент в ассортименте</p>
+                <img src="img/promo_pack.png" alt="Специальное предложение!" title="Специальное предложение!">
+            </div>
+            <div class="right-block-special-offer">
+                <div class="form-order-offer">
+                    <span class="title-form-banner">
+                    Закажите Сейчас
+                    по лучшей цене!
+                    </span>
+                    <form class="form-callblack-banner">
+                        <input type="text" class="style-input-form" placeholder="Как вас зовут?">
+                        <input type="text" class="style-input-form" id="phone_3" placeholder="+38 (0__) ___ __ __">
+                        <button type="button" class="btn-global-form">Заказать</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="seo-text">
+    <div class="container">
+        Магазин сухих строительных смесей и материалов Мегастрой
+    </div>
+</div>
+<div class="map"></div>
+<footer>
+    <div class="container">
+        <div class="col-md-3">
+            <div class="logo-footer">
+                <a href="#">
+                    <img src="img/logo_slog_footer.png">
+                </a>
+
+            </div>
+            <div class="phones-footer">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <a href="tel:+38 (067) 595-58-61">+38 (067) 595-58-61</a>
+                <a href="tel:+38 (067) 865-58-03">+38 (067) 865-58-03</a>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <p class="desc-footer">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <ul>
+                <li>
+                    <a href="skype:vega1eugene">
+                        <i class="fa fa-skype" aria-hidden="true"></i>
+                        megastroy_sales
+                    </a>
+                </li>
+                <li>
+                    <a href="email:vega1eugene">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        sales@megastroy.com.ua
+                    </a>
+                </li>
+                <li>
+                    <a href="skype:vega1eugene">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        г. Мелитополь,<br>
+                    Каховское шоссе, 24/7
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<div class="job-webpr">
+    <a href="http://lnd.e-coms.biz/">
+        2017 © Разработка и поддержка WebPR
+    </a>
+</div>
+
+<!-- Modal Обратный звонок -->
+<div class="modal fade modal-form" id="modal_callblack" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">
+                    Заполните форму,
+                    и мы свяжемся с Вами
+                    в ближайшее время
+                </h4>
+            </div>
+            <div class="modal-body">
+                <form action="" class="form-callblack-modal" name="form-2">
+                    <input type="text" name="name" class="style-input-form" placeholder="Как вас зовут?">
+                    <input type="text" name="tell" class="style-input-form" id="phone_4" placeholder="+38 (0__) ___ __ __">
+                    <button type="button" name="send" class="feedback btn-global-form">Заказать</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-closed-modal" data-dismiss="modal">Закрыть Х</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 <link rel="stylesheet" href="css/bootstrap.css"/>
 <link rel="stylesheet" href="css/font-awesome.min.css"/>
 <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+<link rel="stylesheet" href="feedback/css/jquery.jgrowl.css"/>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/media.css">
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="feedback/js/feedback.js"></script>
+<script type="text/javascript" src="feedback/js/jquery.jgrowl.js"></script>
+<script type="text/javascript" src="feedback/js/jquery.arcticmodal.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-
 <script type="text/javascript" src="js/main.js"></script>
-<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK2Rbh3nnU8hXp7Ov9ps1TOGwxsRSxnI8&callback=initMap" type="text/javascript"></script>
+<!--<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK2Rbh3nnU8hXp7Ov9ps1TOGwxsRSxnI8&callback=initMap" type="text/javascript"></script>-->
 </html>
